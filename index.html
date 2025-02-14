@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,41 +11,114 @@
     <header>
         <nav>
             <h1>Portfolio Fabricio Schneiderbauer</h1>
-            <ul class="nav-list">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="data-projects.html">Proyectos Data Analysis</a></li>
-                <li><a href="backend-projects.html">Proyectos Back-End</a></li>
-            </ul>
         </nav>
     </header>
 
     <main>
         <section id="intro">
             <h2>Mis Proyectos como Analista de Datos y Programador Back-End</h2>
-            <p>Explora mis proyectos donde combino análisis de datos con soluciones de programación backend para resolver problemas reales.</p>
         </section>
     
         <section id="categories">
             <div class="category">
-                <img src="images/data-icon.png" alt="Analista de Datos" class="category-icon">
+                <img src="images/data-icon.png" alt="Icono de análisis de datos" class="category-icon">
                 <h3>Proyectos de Analista de Datos</h3>
                 <p>Visualizaciones interactivas y soluciones basadas en datos para una mejor toma de decisiones.</p>
-                <a href="data-projects.html" class="btn">Ver Proyectos</a>
+                <a href="#projects-data" class="btn">Ver Proyectos</a> 
             </div>
             <div class="category">
-                <img src="images/backend-icon.png" alt="Proyectos Back-End" class="category-icon">
+                <img src="images/backend-icon.png" alt="Icono de desarrollo back-end" class="category-icon">
                 <h3>Proyectos Back-End</h3>
                 <p>Desarrollo de software y soluciones de lógica del servidor para mejorar el rendimiento de aplicaciones.</p>
-                <a href="backend-projects.html" class="btn">Ver Proyectos</a>
+                <a href="#projects-backend" class="btn">Ver Proyectos</a> <!-- Cambié el enlace a #projects-backend -->
+            </div>
+        </section>        
+    
+        <br>
+        <section id="projects-data">
+            <h2>Mis Proyectos sobre Analisis de Datos</h2>
+            <br>
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>API para Gestión de Inventarios</h3>
+                        <p>Desarrollo de una API RESTful para la gestión de inventarios de productos, utilizando Node.js, Express y MongoDB.</p>
+                        <a href="https://github.com/fabrisch19/api-inventarios" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Sistema de Autenticación de Usuarios</h3>
+                        <p>Implementación de un sistema de autenticación y autorización de usuarios con JWT y Bcrypt, utilizando Node.js y Express.</p>
+                        <a href="https://github.com/fabrisch19/auth-system" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Análisis de Datos de Suicidios en Argentina</h3>
+                        <p>Este proyecto incluye el análisis de datos estadísticos sobre suicidios en Argentina, utilizando herramientas como Power BI y SQL.</p>
+                        <a href="https://github.com/fabrisch19/suicidios-argentina" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Análisis de Tendencias de Ventas</h3>
+                        <p>Análisis detallado de las tendencias de ventas a lo largo del tiempo, utilizando visualizaciones interactivas para una mejor comprensión.</p>
+                        <a href="https://github.com/fabrisch19/tendencias-ventas" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="projects-backend">
+            <h2>Mis Proyectos Back-End</h2>
+            <br>
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>API para Gestión de Inventarios</h3>
+                        <p>Desarrollo de una API RESTful para la gestión de inventarios de productos, utilizando Node.js, Express y MongoDB.</p>
+                        <a href="https://github.com/fabrisch19/api-inventarios" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Sistema de Autenticación de Usuarios</h3>
+                        <p>Implementación de un sistema de autenticación y autorización de usuarios con JWT y Bcrypt, utilizando Node.js y Express.</p>
+                        <a href="https://github.com/fabrisch19/auth-system" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Análisis de Datos de Suicidios en Argentina</h3>
+                        <p>Este proyecto incluye el análisis de datos estadísticos sobre suicidios en Argentina, utilizando herramientas como Power BI y SQL.</p>
+                        <a href="https://github.com/fabrisch19/suicidios-argentina" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Análisis de Tendencias de Ventas</h3>
+                        <p>Análisis detallado de las tendencias de ventas a lo largo del tiempo, utilizando visualizaciones interactivas para una mejor comprensión.</p>
+                        <a href="https://github.com/fabrisch19/tendencias-ventas" class="btn" target="_blank">Ver Proyecto</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    
 
     <footer>
         <div class="footer-container">
-            <p>Fabricio Schneiderbauer - 2025 Derechos Reservados</p>
-            <p>Contacto: +541165078234 | <a href="https://www.linkedin.com/in/fabricio-schneiderbauer/" target="_blank">LinkedIn</a> | <a href="https://www.github.com/fabrisch19" target="_blank">GitHub</a></p>
+            <p>&copy; 2025 Fabricio Schneiderbauer - Todos los derechos reservados</p>
+            <p>Contacto: <a href="tel:+5491165078234">+54 9 11 6507-8234</a> | 
+                <a href="https://www.linkedin.com/in/fabricio-schneiderbauer/" target="_blank">LinkedIn</a> | 
+                <a href="https://www.github.com/fabrisch19" target="_blank">GitHub</a>
+            </p>
         </div>
     </footer>
 
